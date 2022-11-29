@@ -1,0 +1,31 @@
+{
+  "name": "api-movies",
+  "version": "1.0.0",
+  "description": "Esta es un api de peliculas",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicccccolas/movies-api.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Nicolas Pantoja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nicccccolas/movies-api/issues"
+  },
+  "homepage": "https://github.com/Nicccccolas/movies-api#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
